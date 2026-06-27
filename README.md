@@ -89,7 +89,7 @@ npm run start;
  
 ## how it should look
 
-
+```
 === apis/client.test.ts ===
 endpoint : http://127.0.0.1:11434
 model    : qwen3:0.6b
