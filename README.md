@@ -22,7 +22,7 @@ ollama openai-api implementation with elasticsearch persistance
 ✅ Config Merge — localStorage Fallback
 
 ✅ ES Entities
-
+```
 
 
 ## ollama on the host machine
