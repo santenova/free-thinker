@@ -94,8 +94,10 @@ npm run postinstall;
 npm  run ingest;
 
 ## create client
+``
 npm run start
 npx tsx src/create.client.ts
+```
 ```
 > start
 > npx tsx src/create.client.ts
@@ -120,7 +122,7 @@ npx tsx src/create.client.ts
     id: '6951e9bb0ad495094419e4cd',
     name: 'Marine Biologist',
     creator_name: null,
-    description: 'Scientist studying ocean life and marine ecosystems',
+   * description: 'Scientist studying ocean life and marine ecosystems',
     icon: '🐠',
     color: 'from-blue-500 to-teal-600',
     category: 'Science',
@@ -170,12 +172,10 @@ npx tsx src/create.client.ts
 ]
 ```
 ## run client tests 
-
+```
 npm run dev
 npx tsx src/client.test.ts
- 
-## how it should look
-
+```
 ```
 === apis/client.test.ts ===
 endpoint : http://127.0.0.1:11434
