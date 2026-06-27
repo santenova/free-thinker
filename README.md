@@ -1,3 +1,30 @@
+## free-thinker
+```
+
+ollama openai-api implementation with elasticsearch persistance
+
+✅ Config Schema Validation
+
+✅ Auth Middleware — Token Injection
+
+✅ Circuit Breaker
+
+✅ Request Batcher
+
+✅ Tool Registry
+
+✅ Abort Manager
+
+✅ Telemetry Event Bus
+
+✅ Model Router — Static Resolve
+
+✅ Config Merge — localStorage Fallback
+
+✅ ES Entities
+
+
+
 ## ollama on the host machine
 ```
 curl -fsSL https://ollama.com/install.sh | sh;
