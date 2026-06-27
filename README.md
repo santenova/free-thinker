@@ -86,6 +86,17 @@ npm  run ingest;
 npm run start;
 ```
 
+## venv to import sample data
+npm run postinstall;
+
+## ingesting samples to elasticsearch
+npm  run ingest;
+
+## create client 
+npx tsx src/create.client.ts
+ 
+## run client tests 
+npx tsx src/client.test.ts
  
 ## how it should look
 
