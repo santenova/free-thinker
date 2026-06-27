@@ -51,8 +51,8 @@ docker run \
 ```
 ## install
 ```
-git clone git@github.com:santenova/ollama-browser-tools.git;
-cd ollama-browser-tools;
+git clone git@github.com:santenova/free-thinker.git;
+cd free-thinker;
 npm install;
 npm run postinstall;
 npm  run ingest;
