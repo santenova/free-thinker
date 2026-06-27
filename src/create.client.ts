@@ -59,6 +59,7 @@ function makeRunner() {
   return { emit, log };
 }
 
+
 const ENTITY_INDEX_MAP: { name: string; defaultIndex: string }[] = [
   { name: 'Persona',                  defaultIndex: 'sample-prompt-persona' },
   { name: 'Template',                 defaultIndex: 'sample-prompt-template' },
