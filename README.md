@@ -84,6 +84,7 @@ npm install;
 npm run postinstall;
 npm  run ingest;
 npm run start;
+npm run dev;
 ```
 
 ## venv to import sample data
