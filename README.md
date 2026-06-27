@@ -94,7 +94,7 @@ npm run postinstall;
 npm  run ingest;
 
 ## create client
-``
+```
 npm run start
 npx tsx src/create.client.ts
 ```
