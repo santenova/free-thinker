@@ -93,10 +93,13 @@ npm run postinstall;
 ## ingesting samples to elasticsearch
 npm  run ingest;
 
-## create client 
+## create client
+npm run start
 npx tsx src/create.client.ts
  
 ## run client tests 
+
+npm run dev
 npx tsx src/client.test.ts
  
 ## how it should look
