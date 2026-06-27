@@ -96,7 +96,79 @@ npm  run ingest;
 ## create client
 npm run start
 npx tsx src/create.client.ts
- 
+```
+> start
+> npx tsx src/create.client.ts
+
+{
+  serverUrl: 'http://127.0.0.1:9200',
+  appId: 'free-thinker',
+  functionsVersion: undefined,
+  entityEndpoint: [ 'http://127.0.0.1:9200' ],
+  headers: { 'Content-Type': 'application/json', 'X-App-Id': 'free-thinker' },
+  capabilities: {},
+  messages: [
+    { role: 'system', content: 'You are a helpful assistant.' },
+    { role: 'user', content: 'why is the sky blue' }
+  ],
+  ollamaEndpoints: [ 'http://127.0.0.1:11434', 'http://127.0.0.1:11434' ],
+  model: 'qwen3:0.6b'
+}
+  ES Persona wildcard search "Marine*" → 1 results 
+[
+  {
+    id: '6951e9bb0ad495094419e4cd',
+    name: 'Marine Biologist',
+    creator_name: null,
+    description: 'Scientist studying ocean life and marine ecosystems',
+    icon: '🐠',
+    color: 'from-blue-500 to-teal-600',
+    category: 'Science',
+    status: 'draft',
+    project: null,
+    instructions: 'Explain marine life, ocean ecosystems, and conservation with scientific expertise.',
+    tone: 'Enthusiastic',
+    expertise_areas: [ 'Marine Biology', 'Ocean Ecology', 'Conservation', 'Research' ],
+    example_prompts: [
+      "Dr. Coral: 'The health of coral reefs is crucial for the survival of countless marine species.'",
+      "Dr. Coral: 'By studying these tiny organisms, we can uncover how larger ecosystems function and thrive.'",
+      "Dr. Coral: 'It's vital that we continue to protect our oceans because they are the lungs of our planet.'"
+    ],
+    tags: [ 'marine biology', 'ocean', 'science', 'conservation' ],
+    is_custom: false,
+    is_public: true,
+    use_count: 0,
+    rating: 0,
+    rating_count: 0,
+    user_ratings: {},
+    prompt_count: 0,
+    parent_persona_id: null,
+    family_name: null,
+    inherited_traits: [],
+    unique_traits: [],
+    specialization: null,
+    voice_profile: {
+      vocabulary: [Array],
+      sentence_patterns: [Array],
+      style_traits: [Array],
+      example_phrases: [Array],
+      tone_recommendation: [Object],
+      dos: [Array],
+      donts: [Array],
+      personality_summary: 'Dr. Coral presents herself as a knowledgeable and passionate marine biologist, combining technical expertise with a love for storytelling and real-world applications of her research.'
+    },
+    collaborators: [],
+    change_log: [],
+    version: 1,
+    version_history: [],
+    created_date: '2025-12-29T02:38:51.197000',
+    updated_date: '2026-01-03T21:54:17.004000',
+    created_by_id: '6901f73a3178f5670b5f2459',
+    created_by: 'tokenfreeai@gmail.com',
+    is_sample: false
+  }
+]
+```
 ## run client tests 
 
 npm run dev
