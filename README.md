@@ -103,7 +103,7 @@ npx tsx src/create.client.ts
 > npx tsx src/create.client.ts
 ```
 
-```json
+```js
 {
   serverUrl: 'http://127.0.0.1:9200',
   appId: 'free-thinker',
