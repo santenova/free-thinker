@@ -185,7 +185,7 @@ npx tsx src/client.test.ts
 === apis/client.test.ts ===
 endpoint : http://127.0.0.1:11434
 model    : qwen3:0.6b
-
+```
 
 ```js
 ─── Suite A — Ollama Modules (6 tests) ───
