@@ -187,7 +187,7 @@ endpoint : http://127.0.0.1:11434
 model    : qwen3:0.6b
 
 
-
+```js
 ─── Suite A — Ollama Modules (6 tests) ───
 [2026-06-27T18:36:57.204Z] [INFO] InvokeLLM start | {"key":"test-invoke-1","hasTools":true,"think":true,"returnRaw":true}
 [2026-06-27T18:36:59.274Z] [INFO] InvokeLLM (2069ms)
