@@ -101,7 +101,9 @@ npx tsx src/create.client.ts
 ```
 > start
 > npx tsx src/create.client.ts
+```
 
+```json
 {
   serverUrl: 'http://127.0.0.1:9200',
   appId: 'free-thinker',
@@ -171,6 +173,9 @@ npx tsx src/create.client.ts
   }
 ]
 ```
+
+
+
 ## run client tests 
 ```
 npm run dev
